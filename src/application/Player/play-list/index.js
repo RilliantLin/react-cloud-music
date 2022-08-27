@@ -147,6 +147,7 @@ function PlayList(props) {
     listWrapperRef.current.style["transition"] = "";
     setStartY(e.nativeEvent.touches[0].pageY);//记录y值
     setInitialed(true);
+    setDistance(0)
   };
 
   const handleTouchMove = (e) => {
